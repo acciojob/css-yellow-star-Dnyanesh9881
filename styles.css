@@ -2,15 +2,16 @@
 .star{
       --star-color:yellow;
       --sqrt-3:1.73205080757;
-  margin: 0 auto;
+/*   margin: 0 auto; */
       font-size:8em;
       width: 0;
       height: 0;
       position:relative;
-	
+	top:0;
       border-left: 1em solid transparent;
       border-right: 1em solid transparent;
-      border-bottom: calc( 1em * var(--sqrt-3) ) solid var(--star-color);
+/*       border-bottom: calc( 1em * var(--sqrt-3) ) solid var(--star-color); */
+	border-bottom:100px solid rgb(255, 255, 0)';
 }
 
 .star:after{
